@@ -1,26 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Escape Room UVG</title>
+  </head>
+  <body>
 
-    <title> Escape Room UVG </title>
-</head>
-<body>
-    <h1> Escape Room UVG </h1>
-    <p>
-        Te encuentras en una habitacion desconocida pero necesitas salir. Cuando miras a tu alrededor, te das cuenta que estas en una clase de la UVG. Intentas abrir la puerta pero esta cerrada.
-    </p>
-    <p>
-        Debes  encontrar la llave. ¿Donde buscas primero?
-    </p>
-    <ul>
-        <li><a href="Escritorio.html">Escritorio del profesor</a></li>
-        <li><a href="Pizarron.html">Pizarrón</a></li>
-        <li><a href="Basura.html">En la basura</a></li>
-        <li><a href="Mochila.html">Mochila misteriosa en la esquina</a></li>
-    </ul>
+    <header>
+      <h1>Escape Room UVG</h1>
+    </header>
+
+    <nav aria-label="breadcrumbs">
+      <ol>
+        <li>Inicio</li>
+      </ol>
+    </nav>
+
+    <main>
+      <article>
+        <section>
+          <h2>Inicio</h2>
+
+          <figure>
+            <img src="/images/salon.jpg" alt="salon" width="300" height="200"/>
+
+            <figcaption>El inicio del misterio</figcaption>
+          </figure>
+
+          <p>
+            Son las <time datetime="23:45">11:45 de la noche</time>. Te encuentras en una habitacion oscura y necesitas salir. Cuando miras a tu alrededor, te das cuenta que estas en una clase de la UVG. Intentas abrir la puerta pero esta cerrada.
+          </p>
+          <p>
+               Tu celular no tiene bateria. Necesitas encontrar una forma de salir.
+          </p>
+
+          <details>
+            <summary>Lo que tienes</summary>
+            <ul>
+              <li>Celular sin bateria</li>
+            </ul>
+          </details>
+        </section>
+
+        <section>
+          <h2>¿Dónde buscas?</h2>
+
+          <progress value="5" max="100">5% completado</progress>
+
+          <nav aria-label="Opciones">
+            <ul>
+              <li><a href="./clase/Escritorio.html">Escritorio del profesor</a></li>
+              <li><a href="./clase/Pizarron.html">Pizarrón</a></li>
+              <li><a href="./clase/Basura.html">El bote de basura</a></li>
+              <li><a href="./clase/Mochila.html">Mochila misteriosa</a></li>
+            </ul>
+          </nav>
+        </section>
+      </article>
+
+      <aside>
+        <h3>Elige cuidadosamente</h3>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Escape Room UVG</p>
+    </footer>
+
+    <dialog>
+      <article>
+        <h2>Bienvenido al Escape Room UVG</h2>
+        <p>
+          En cada sección encontraras una serie de obstáculos, pistas y decisiones que tomar que te ayudarán a encontrar la salida. 
+          Elige las opciones que creas sean las mejores. ¡Mucha Suerte!
+        </p>
+        <form method="dialog">
+          <button type="submit">Comenzar</button>
+        </form>
+      </article>
+    </dialog>
 
 
-</body>
+  </body>
 </html>
